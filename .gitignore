@@ -1,0 +1,58 @@
+.idea/
+.DS_Store
+__pycache__/
+build/
+dist/
+!Resources/dist
+Original_Sin_S_Server.egg-info/
+logs.txt
+log/error_log.log
+nohup.out
+fatal.txt
+log/log.log
+log/fatal.log
+HEAD
+description
+config
+hooks/
+info/
+node_modules
+e2e
+Frontend/*/e2e
+Frontend/*/dist
+Frontend/*/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+Thumbs.db
+
+
+#Virtual Env
+/venv
+venv

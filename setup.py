@@ -11,10 +11,12 @@ setuptools.setup(
     description="Reads HS-AFM image and converts to numpy ndarray.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://initialcommit.com/tools/git-tagup",
-    packages=setuptools.find_packages(),
+    url="https://github.com/arheneos/py-hs-afm",
+    packages=setuptools.find_packages('afm.py'),
     classifiers=[
-        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
@@ -24,6 +26,6 @@ setuptools.setup(
     ],
     keywords='hs-afm, .asd, afm, asd file',
     project_urls={
-        'Homepage': 'https://initialcommit.com/tools/git-tagup',
+        'Homepage': 'https://github.com/arheneos/py-hs-afm',
     },
 )
